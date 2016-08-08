@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+            android:key="customnlp_enabled"
+            android:title="@string/pref_title_customnlp_enabled"
+            android:defaultValue="true"/>
+
+    <me.fts.xposedcustomnlp.NlpProviderPreference
+            android:key="customnlp_provider"
+            android:title="@string/pref_title_customnlp_service_name"
+            android:defaultValue="com.google.android.gms"/>
+	<Preference
+			android:key="customnlp_current"
+			android:title="@string/pref_title_customnlp_current"/>
+
+
+</PreferenceScreen>

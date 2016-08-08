@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">XposedCustomNlp</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string-array name="pref_customnlp_server">
+        <item>Google NLP</item>
+        <item>Unified NLP</item>
+        <item>Qualcomm Location</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_customnlp_server_values">
+        <item>com.google.android.gms</item>
+        <item>org.microg.nlp</item>
+        <item>com.qualcomm.location</item>
+        <item>other</item>
+    </string-array>
+    <string name="pref_title_customnlp_enabled">Enable Custom Nlp</string>
+    <string name="pref_title_customnlp_service_name">Nlp Provider</string>
+    <string name="pref_title_customnlp_other">Custom Nlp Name</string>
+    <string name="pref_title_customnlp_current">Current Nlp Provider</string>
+</resources>
